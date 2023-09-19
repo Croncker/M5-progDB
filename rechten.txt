@@ -1,0 +1,33 @@
+Hier zijn vier database-rechten
+
+1. GRANT PRIVILEGES: 
+
+   - Wat doet deze recht: Dit recht stelt een gebruiker in staat om bepaalde rechten of privileges aan andere gebruikers toe te kennen. Het wordt gebruikt wanneer een databasebeheerder bevoegdheden moet delegeren aan andere gebruikers zonder volledige controle over de database te geven. Dit recht is handig wanneer nieuwe teamleden toegang tot specifieke bronnen nodig hebben.
+
+   - Wanneer je dit nodig hebt: Dit recht is nodig wanneer je een databasebeheerder bent en je andere teamleden toegang wilt geven tot bepaalde delen van de database, zoals het kunnen lezen van gegevens of het uitvoeren van specifieke taken.
+
+   - Wat een hacker hiermee zou kunnen: Als een hacker toegang heeft tot het recht om privileges toe te kennen, kan deze persoon ongeautoriseerde toegang verschaffen aan andere gebruikers, waardoor de beveiliging van de database in gevaar kan komen.
+
+2. CREATE TABLE: 
+
+   - Wat doet deze recht: Het recht om tabellen te maken in een database. Hiermee kan een gebruiker nieuwe tabellen maken om gegevens op te slaan en te organiseren.
+
+   - Wanneer je dit nodig hebt: Dit recht is nodig wanneer je database-objecten wilt maken, zoals nieuwe tabellen, om gegevens in een database te structureren en op te slaan.
+
+   - Wat een hacker hiermee zou kunnen: Als een hacker dit recht heeft, kan deze ongeautoriseerd nieuwe tabellen maken, waardoor gegevens mogelijk kunnen worden verstoord of gecompromitteerd. Dit kan leiden tot gegevensverlies of schending van de database-integriteit.
+
+3. ALTER TABLE:
+
+   - Wat doet deze recht: Dit recht stelt een gebruiker in staat om bestaande tabellen in een database te wijzigen, bijvoorbeeld door kolommen toe te voegen, te verwijderen of te wijzigen.
+
+   - Wanneer je dit nodig hebt: Dit recht is nuttig wanneer je de structuur van een bestaande tabel wilt aanpassen, zoals het toevoegen van nieuwe gegevensvelden of het verwijderen van verouderde kolommen.
+
+   - Wat een hacker hiermee zou kunnen: Een hacker met dit recht kan de structuur van tabellen wijzigen, wat kan leiden tot gegevensverlies, corruptie of ongeautoriseerde toegang tot gegevens.
+
+4. BACKUP DATABASE: 
+
+   - Wat doet deze recht: Dit recht geeft een gebruiker toegang om een back-up van de gehele database te maken. Hiermee kunnen beheerders kopieën van de database opslaan voor het geval er gegevensverlies optreedt of voor onderhoudsdoeleinden.
+
+   - Wanneer je dit nodig hebt: Dit recht is nodig wanneer je periodieke back-ups van de database wilt maken om gegevensverlies te voorkomen en de gegevens te beschermen.
+
+   - Wat een hacker hiermee zou kunnen: Als een hacker toegang heeft tot het recht om back-ups te maken, kan deze mogelijk toegang krijgen tot gevoelige gegevens die in de back-up zijn opgeslagen, wat tot een beveiligingsprobleem kan leiden.
