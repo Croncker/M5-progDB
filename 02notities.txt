@@ -1,0 +1,7 @@
+Taurusavenue 16, 2132 LS Hoofddorp Noord-Holland
+
+Straat = Taurussavenue
+Nummer = 16
+Postcode = 2132 LS
+Stad = Hoofddorp
+Provincie = Noord-Holland
